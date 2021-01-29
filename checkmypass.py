@@ -35,6 +35,6 @@ def main(args): #Recieves the passowrds we want to check
 			print(f'{password} was NOT found. Continue with use of password.')
 		return 'done!'
 
-if __name__ == '__main__':
-	sys.exit(main(sys.argv[1:])) #accepts the passwords we want it too 
+if __name__ == '__main__': #only run if it is the main file not being imported 
+	sys.exit(main(sys.argv[1:])) #accepts the passwords we want it too and exits the process
 
